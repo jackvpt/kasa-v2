@@ -1,0 +1,14 @@
+// /* Fonts */
+$font_body: "Montserrat", sans-serif !default;
+
+// /* Colors */
+$primary-color: #ff6060;
+$primary-bg-color: #f6f6f6;
+
+/* Responsive */
+$breakpoints: (
+  mobile: 370px,
+  tablet: 768px,
+  desktop: 1024px,
+  large-desktop: 1280px,
+);

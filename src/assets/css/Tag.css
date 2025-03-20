@@ -1,0 +1,22 @@
+/* Responsive */
+/* Responsive */
+.container__tag {
+  background-color: #ff6060;
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
+  text-align: center;
+  align-content: center;
+  min-width: 60px;
+  height: 18px;
+  padding: 0 5px;
+  font-size: 10px;
+}
+@media all and (min-width: 370px) {
+  .container__tag {
+    min-width: 95px;
+    font-size: 14px;
+    height: 25px;
+    padding: 0 10px;
+  }
+}/*# sourceMappingURL=Tag.css.map */

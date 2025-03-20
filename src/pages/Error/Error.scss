@@ -1,0 +1,54 @@
+@import "../../variables.scss";
+
+.container__error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 30px;
+  h1 {
+    font-size: 288px;
+    color: $primary-color;
+    margin: 80px auto;
+
+    @media (max-width: $breakpoint-mobile) {
+      font-size: 96px;
+    }
+
+    @media (min-width: $breakpoint-mobile) and (max-width: $breakpoint-desktop){
+      font-size: 192px;
+    }
+  }
+
+  h2 {
+    font-size: 36px;
+    color: $primary-color;
+    margin: 0 auto;
+    text-align:center;
+    font-weight: 500;
+    line-height: 26px;
+
+    @media (max-width: $breakpoint-mobile) {
+      font-size: 18px;
+    }
+
+    @media (min-width: $breakpoint-mobile) and (max-width: $breakpoint-desktop){
+      font-size: 24px;
+    }
+  }
+
+  &-link {
+    font-size: 18px;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    margin: 120px auto 100px;
+
+    @media (max-width: $breakpoint-mobile) {
+      font-size: 14px;
+    }
+
+    @media (min-width: $breakpoint-mobile) and (max-width: $breakpoint-desktop){
+      font-size: 16px;
+    }
+  }
+}

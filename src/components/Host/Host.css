@@ -1,0 +1,46 @@
+/* =========================================== */
+/* VARIABLES */
+/* =========================================== */
+.container__host {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.container__host__name {
+  font-size: 18px;
+  text-align: right;
+  color: #ff6060;
+  width: 80px;
+  margin-right: 10px;
+  overflow-wrap: break-word;
+}
+@media (max-width: 768px) {
+  .container__host__name {
+    font-size: 12px;
+    margin: 0 12px 0 0;
+  }
+}
+.container__host__picture {
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  background-color: grey;
+}
+.container__host__picture img {
+  border-radius: 32px;
+}
+@media (max-width: 768px) {
+  .container__host__picture img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .container__host__picture {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+  }
+}/*# sourceMappingURL=Host.css.map */

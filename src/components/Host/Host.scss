@@ -1,0 +1,46 @@
+@use "../../styles/utils/mixins" as *;
+@use "../../styles/utils/variables" as *;
+
+.container__host {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  &__name {
+    text-align: right;
+    color: $primary-color;
+    width: 80px;
+
+    overflow-wrap: break-word;
+    font-size: 12px;
+    margin: 0 12px 0 0;
+
+    @include responsive-tablet {
+      font-size: 18px;
+      margin-right: 10px;
+    }
+  }
+
+  &__picture {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: grey;
+    img {
+      width: 32px;
+      height: 32px;
+      border-radius: 16px;
+
+      @include responsive-tablet {
+        border-radius: 32px;
+      }
+    }
+
+    @include responsive-mobile {
+      width: 64px;
+      height: 64px;
+      border-radius: 32px;
+    }
+  }
+}

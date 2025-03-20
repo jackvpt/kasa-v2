@@ -1,0 +1,17 @@
+@use "../../styles/utils/mixins" as *;
+
+.container__rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  img {
+    width: 18px;
+    height: 18px;
+
+    @include responsive-tablet {
+      width: auto;
+      height: auto;
+    }
+  }
+}

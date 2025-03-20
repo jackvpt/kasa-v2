@@ -1,0 +1,48 @@
+/* Responsive */
+/* Responsive */
+.container__main {
+  max-width: 1240px;
+  margin: auto;
+  padding: 0;
+}
+@media all and (min-width: 370px) {
+  .container__main {
+    padding: 0 100px;
+  }
+}
+
+.container__cards {
+  margin: 0 auto;
+  background-color: white;
+  padding: 0;
+  border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  row-gap: 20px;
+}
+@media all and (min-width: 370px) {
+  .container__cards {
+    background-color: #f6f6f6;
+    padding: 30px;
+    flex-direction: row;
+    gap: 30px;
+  }
+}
+.container__cards a {
+  width: 100%;
+  gap: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media all and (min-width: 370px) {
+  .container__cards a {
+    width: 46%;
+  }
+}
+@media all and (min-width: 768px) {
+  .container__cards a {
+    width: 30%;
+  }
+}/*# sourceMappingURL=Home.css.map */

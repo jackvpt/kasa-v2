@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../styles/utils/_variables.scss","../../styles/utils/_mixins.scss","../../components/Tag/Tag.scss","Tag.css"],"names":[],"mappings":"AAOA,eAAA;ACLA,eAAA;ACEA;EACE,yBFDc;EEEd,YAAA;EAEA,gBAAA;EACA,mBAAA;EACA,kBAAA;EACA,qBAAA;EAEA,eAAA;EACA,YAAA;EACA,cAAA;EACA,eAAA;ACHF;AFTE;ECAF;IAeI,eAAA;IACA,eAAA;IACA,YAAA;IACA,eAAA;ECFF;AACF","file":"Tag.css"}

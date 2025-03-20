@@ -1,0 +1,25 @@
+@use "../../styles/utils/mixins" as *;
+@use "../../styles/utils/variables" as *;
+
+
+.container__tag {
+  background-color: $primary-color;
+  color: white;
+
+  font-weight: 700;
+  border-radius: 10px;
+  text-align: center;
+  align-content: center;
+
+  min-width: 60px;
+  height: 18px;
+  padding: 0 5px;
+  font-size: 10px;
+
+  @include responsive-mobile {
+    min-width: 95px;
+    font-size: 14px;
+    height: 25px;
+    padding: 0 10px;
+  }
+}

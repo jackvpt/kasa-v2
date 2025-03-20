@@ -1,0 +1,109 @@
+/* =========================================== */
+/* VARIABLES */
+/* =========================================== */
+.container__main {
+  max-width: 1240px;
+  padding: 0 100px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  .container__main {
+    padding: 0 20px;
+    margin: 10px auto 10px;
+  }
+}
+
+.container__location-tags-host-rating {
+  margin: 30px 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .container__location-tags-host-rating {
+    flex-direction: column;
+    margin: 10px 0 0;
+  }
+}
+
+.container__location-tags {
+  width: 70%;
+}
+@media (max-width: 768px) {
+  .container__location-tags {
+    width: 100%;
+  }
+}
+.container__location-tags__location h2 {
+  color: #ff6060;
+  font-size: 36px;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .container__location-tags__location h2 {
+    font-size: 18px;
+  }
+}
+.container__location-tags__location h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+@media (max-width: 768px) {
+  .container__location-tags__location h3 {
+    font-size: 14px;
+  }
+}
+.container__location-tags__tags {
+  margin: 20px 0 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+@media (max-width: 768px) {
+  .container__location-tags__tags {
+    margin: 10px 0;
+  }
+}
+
+.container__tags-rating {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .container__tags-rating {
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.container__details {
+  max-width: 1240px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .container__details {
+    flex-direction: column;
+    margin: 5px 0;
+  }
+}
+
+.details__description {
+  width: 47%;
+}
+@media (max-width: 768px) {
+  .details__description {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Accomodation.css.map */

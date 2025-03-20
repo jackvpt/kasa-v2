@@ -1,0 +1,89 @@
+@use "../../styles/utils/mixins" as *;
+
+.container__carrousel {
+  position: relative;
+  overflow: hidden;
+
+  height: 255px;
+
+  @include responsive-tablet {
+    height: auto;
+  }
+
+  .carousel-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .accomodationPicture {
+    object-fit: cover;
+    width: 100%;
+
+    border-radius: 10px;
+    height: 255px;
+
+    @include responsive-tablet {
+      border-radius: 25px;
+      height: 415px;
+    }
+  }
+}
+
+.carousel-slide img {
+  width: 100%;
+  display: block;
+}
+
+.picture__arrow_back {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  &:hover {
+    cursor: pointer;
+  }
+
+  width: 24px;
+  height: 24px;
+
+  @include responsive-tablet {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.picture__arrow_forward {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  &:hover {
+    cursor: pointer;
+  }
+
+  width: 24px;
+  height: 24px;
+
+  @include responsive-tablet {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.picture__number {
+  font-weight: 500;
+  position: absolute;
+  color: white;
+  left: 50%;
+  bottom: 15px;
+  font-size: 12px;
+
+  @include responsive-tablet {
+    font-size: 18px;
+  }
+}

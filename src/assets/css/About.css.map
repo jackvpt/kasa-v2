@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../styles/utils/_variables.scss","../../styles/utils/_mixins.scss","../../pages/About/About.scss","About.css"],"names":[],"mappings":"AAOA,eAAA;ACLA,eAAA;ACAA;EACE,gBAAA;EACA,eAAA;EACA,iBAAA;ACCF;AFFE;ECFF;IAMI,gBAAA;ECEF;AACF;AFGE;ECZF;IAUI,iBAAA;IACA,gBAAA;ECGF;AACF","file":"About.css"}
