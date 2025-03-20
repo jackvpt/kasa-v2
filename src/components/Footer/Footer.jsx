@@ -6,10 +6,10 @@ export default function Footer() {
     <footer>
       <img src={logo} alt="logo kasa"></img>
       <p>
-        © 2020 Kasa. All{" "}
+        © 2020 Kasa. All {" "}
         <span className="span__crlf">
           <br />
-        </span>{" "}
+        </span>
         rights reserved
       </p>
     </footer>

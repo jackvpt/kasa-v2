@@ -17,6 +17,11 @@ footer {
     width: 120px;
     height: auto;
     object-fit: contain;
+    margin-bottom: 10px;
+
+    @include responsive-tablet {
+      margin-bottom: 40px;
+    }
   }
 
   p {
@@ -25,22 +30,14 @@ footer {
     font-weight: 500;
     text-align: center;
 
-    @include responsive-mobile {
-      font-size: 18px;
-    }
-
     @include responsive-tablet {
       font-size: 24px;
     }
   }
 
   .span__crlf {
-    display: block;
-    
-    @include responsive-mobile {
+    @include responsive-tablet {
       display: none;
     }
-
-
   }
 }

@@ -1,16 +1,6 @@
 @use "../../styles/utils/mixins" as *;
 @use "../../styles/utils/variables" as *;
 
-.container__main {
-  max-width: 1240px;
-  margin: auto;
-  padding: 0;
-
-  @include responsive-mobile {
-    padding: 0 100px;
-  }
-}
-
 .container__cards {
   margin: 0 auto;
   background-color: white;
@@ -24,7 +14,7 @@
 
   row-gap: 20px;
 
-  @include responsive-mobile {
+  @include responsive-tablet {
     background-color: $primary-bg-color;
     padding: 30px;
     flex-direction: row;
@@ -36,11 +26,11 @@
     gap: 20px;
     object-fit: cover;
 
-    @include responsive-mobile {
+    @include responsive-tablet {
       width: 46%;
     }
 
-    @include responsive-tablet {
+    @include responsive-desktop {
       width: 30%;
     }
   }

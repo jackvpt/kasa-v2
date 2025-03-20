@@ -1,7 +1,9 @@
-@import "../../variables.scss";
+@use "../../styles/utils/mixins" as *;
+@use "../../styles/utils/variables" as *;
 
 .container__card {
-  height: 340px;
+  height: 255px;
+
   border-radius: 10px;
   background: linear-gradient(
     180deg,
@@ -14,8 +16,8 @@
   background-color: $primary-color;
   position: relative;
 
-  @media (max-width: $breakpoint-mobile) {
-    max-height: 255px;
+  @include responsive-tablet {
+    max-height:340px;
   }
 
   h3 {
@@ -27,7 +29,7 @@
     margin: 0 20px;
     text-shadow: 0px 4px 4px #00000040;
 
-    @media (max-width: $breakpoint-mobile) {
+    @include responsive-tablet {
       bottom: 10px;
     }
   }
@@ -39,7 +41,7 @@
   height: 100%;
   border-radius: 10px;
 
-  @media (max-width: $breakpoint-mobile) {
+  @include responsive-tablet {
     height: 255px;
   }
 }

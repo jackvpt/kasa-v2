@@ -40,12 +40,8 @@
     font-size: 13px;
     font-weight: 700;
 
-    @include responsive-mobile {
+    @include responsive-tablet {
       font-size: 18px;
-    }
-
-    @include responsive-desktop {
-      font-size: 24px;
     }
   }
 }
@@ -71,7 +67,7 @@
   overflow: hidden;
   transition: height 0.4s ease-in-out;
 
-  @include responsive-mobile {
+  @include responsive-tablet {
     font-size: 18px;
     line-height: 26px;
   }

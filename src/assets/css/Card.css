@@ -1,16 +1,15 @@
-/* =========================================== */
-/* VARIABLES */
-/* =========================================== */
+/* Responsive */
+/* Responsive */
 .container__card {
-  height: 340px;
+  height: 255px;
   border-radius: 10px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(10, 10, 10, 0) 42%, rgba(4, 4, 4, 0.205) 99.99%, rgba(0, 0, 0, 0.5) 100%);
   background-color: #ff6060;
   position: relative;
 }
-@media (max-width: 768px) {
+@media all and (min-width: 768px) {
   .container__card {
-    max-height: 255px;
+    max-height: 340px;
   }
 }
 .container__card h3 {
@@ -22,7 +21,7 @@
   margin: 0 20px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2509803922);
 }
-@media (max-width: 768px) {
+@media all and (min-width: 768px) {
   .container__card h3 {
     bottom: 10px;
   }
@@ -35,7 +34,7 @@
   height: 100%;
   border-radius: 10px;
 }
-@media (max-width: 768px) {
+@media all and (min-width: 768px) {
   .card__img {
     height: 255px;
   }

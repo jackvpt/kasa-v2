@@ -23,23 +23,23 @@
 .container__host__picture {
   width: 32px;
   height: 32px;
-  border-radius: 16px;
+  border-radius: 50%;
   background-color: grey;
 }
 .container__host__picture img {
   width: 32px;
   height: 32px;
-  border-radius: 16px;
+  border-radius: 50%;
 }
 @media all and (min-width: 768px) {
   .container__host__picture img {
-    border-radius: 32px;
+    width: 64px;
+    height: 64px;
   }
 }
-@media all and (min-width: 370px) {
+@media all and (min-width: 768px) {
   .container__host__picture {
     width: 64px;
     height: 64px;
-    border-radius: 32px;
   }
 }/*# sourceMappingURL=Host.css.map */
