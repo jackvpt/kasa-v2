@@ -1,7 +1,6 @@
 @use "../../styles/utils/mixins" as *;
 @use "../../styles/utils/variables" as *;
 
-
 .container__main {
   // max-width: 1240px;
   padding: 0 20px;
@@ -11,6 +10,10 @@
   flex-direction: column;
 
   @include responsive-tablet {
+    padding: 0 50px;
+    margin: 15px auto;
+  }
+  @include responsive-desktop {
     padding: 0 100px;
     margin: 30px auto;
   }
@@ -24,8 +27,12 @@
   justify-content: space-between;
 
   @include responsive-tablet {
-    margin: 30px 0 0;
     flex-direction: row;
+    margin: 20px 0 0;
+  }
+
+  @include responsive-desktop {
+    margin: 30px 0 0;
   }
 }
 
@@ -42,6 +49,9 @@
       font-size: 18px;
 
       @include responsive-tablet {
+        font-size: 30px;
+      }
+      @include responsive-desktop {
         font-size: 36px;
       }
     }
@@ -51,6 +61,9 @@
       font-size: 14px;
 
       @include responsive-tablet {
+        font-size: 16px;
+      }
+      @include responsive-desktop {
         font-size: 18px;
       }
     }
@@ -65,6 +78,9 @@
     gap: 10px;
 
     @include responsive-tablet {
+      margin: 15px 0 0;
+    }
+    @include responsive-desktop {
       margin: 20px 0 0;
     }
   }
@@ -98,6 +114,9 @@
 
   @include responsive-tablet {
     flex-direction: row;
+    margin: 15px 0;
+  }
+  @include responsive-desktop {
     margin: 20px 0;
   }
 }
@@ -106,6 +125,10 @@
   width: 100%;
 
   @include responsive-tablet {
+    width: 49%;
+  }
+  
+  @include responsive-desktop {
     width: 47%;
   }
 }

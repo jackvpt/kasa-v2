@@ -1,7 +1,6 @@
 @use "../../styles/utils/mixins" as *;
 @use "../../styles/utils/variables" as *;
 
-
 .container__tag {
   background-color: $primary-color;
   color: white;
@@ -16,7 +15,14 @@
   padding: 0 5px;
   font-size: 10px;
 
-  @include responsive-mobile {
+  @include responsive-tablet {
+    min-width: 80px;
+    font-size: 12px;
+    height: 21px;
+    padding: 0 8px;
+  }
+
+  @include responsive-desktop {
     min-width: 95px;
     font-size: 14px;
     height: 25px;

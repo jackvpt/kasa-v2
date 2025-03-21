@@ -14,7 +14,7 @@
       cursor: pointer;
     }
 
-    @include responsive-mobile {
+    @include responsive-tablet {
       width: 20px;
       height: 20px;
     }
@@ -41,6 +41,9 @@
     font-weight: 700;
 
     @include responsive-tablet {
+      font-size: 16px;
+    }
+    @include responsive-desktop {
       font-size: 18px;
     }
   }
@@ -68,6 +71,10 @@
   transition: height 0.4s ease-in-out;
 
   @include responsive-tablet {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  @include responsive-desktop {
     font-size: 18px;
     line-height: 26px;
   }

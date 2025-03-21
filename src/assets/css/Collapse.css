@@ -12,7 +12,7 @@
 .article__collapse img:hover {
   cursor: pointer;
 }
-@media all and (min-width: 370px) {
+@media all and (min-width: 768px) {
   .article__collapse img {
     width: 20px;
     height: 20px;
@@ -41,6 +41,11 @@
 }
 @media all and (min-width: 768px) {
   .collapse__item h2 {
+    font-size: 16px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .collapse__item h2 {
     font-size: 18px;
   }
 }
@@ -66,6 +71,12 @@
   transition: height 0.4s ease-in-out;
 }
 @media all and (min-width: 768px) {
+  .collapse__text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+@media all and (min-width: 1024px) {
   .collapse__text {
     font-size: 18px;
     line-height: 26px;

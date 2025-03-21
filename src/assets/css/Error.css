@@ -1,6 +1,5 @@
-/* =========================================== */
-/* VARIABLES */
-/* =========================================== */
+/* Responsive */
+/* Responsive */
 .container__error {
   display: flex;
   flex-direction: column;
@@ -8,52 +7,52 @@
   padding: 0 30px;
 }
 .container__error h1 {
-  font-size: 288px;
   color: #ff6060;
   margin: 80px auto;
+  font-size: 96px;
 }
-@media (max-width: 768px) {
+@media all and (min-width: 768px) {
   .container__error h1 {
-    font-size: 96px;
+    font-size: 200px;
   }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 1024px) {
   .container__error h1 {
-    font-size: 192px;
+    font-size: 288px;
   }
 }
 .container__error h2 {
-  font-size: 36px;
   color: #ff6060;
   margin: 0 auto;
   text-align: center;
   font-weight: 500;
   line-height: 26px;
+  font-size: 18px;
 }
-@media (max-width: 768px) {
+@media all and (min-width: 768px) {
   .container__error h2 {
-    font-size: 18px;
+    font-size: 28px;
   }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 1024px) {
   .container__error h2 {
-    font-size: 24px;
+    font-size: 36px;
   }
 }
 .container__error-link {
-  font-size: 18px;
   color: black;
   text-decoration: underline;
   text-align: center;
   margin: 120px auto 100px;
+  font-size: 14px;
 }
-@media (max-width: 768px) {
-  .container__error-link {
-    font-size: 14px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 768px) {
   .container__error-link {
     font-size: 16px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .container__error-link {
+    font-size: 18px;
   }
 }/*# sourceMappingURL=Error.css.map */

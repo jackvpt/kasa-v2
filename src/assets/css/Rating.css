@@ -11,6 +11,12 @@
 }
 @media all and (min-width: 768px) {
   .container__rating img {
+    width: 24px;
+    height: 24px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .container__rating img {
     width: auto;
     height: auto;
   }

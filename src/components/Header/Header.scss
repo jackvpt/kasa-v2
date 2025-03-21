@@ -15,17 +15,15 @@ header {
     width: 100px;
     height: 33px;
 
-    @include responsive-mobile {
+    @include responsive-tablet {
       width: 145px;
       height: 48px;
-      margin-left: 0;
     }
 
-    @include responsive-tablet {
+    @include responsive-desktop {
       width: 210px;
       height: 68px;
     }
-
   }
 }
 
@@ -33,12 +31,7 @@ header {
   flex-direction: column;
   justify-content: space-around;
   gap: 8px;
-
   display: flex;
-
-  @include responsive-tablet {
-    margin-right: 0;
-  }
 
   @include responsive-mobile {
     flex-direction: row;
@@ -58,9 +51,14 @@ header {
     text-transform: uppercase;
 
     @include responsive-tablet {
+      text-transform: none;
+      margin-left: 30px;
+      font-size:18px;
+    }
+
+    @include responsive-desktop {
       margin-left: 30px;
       font-size: 24px;
-      text-transform: none;
     }
   }
 

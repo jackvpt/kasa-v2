@@ -8,6 +8,12 @@
 }
 @media all and (min-width: 768px) {
   .container__main {
+    padding: 0 50px;
+    margin: 15px auto;
+  }
+}
+@media all and (min-width: 1024px) {
+  .container__main {
     padding: 0 100px;
     margin: 30px auto;
   }
@@ -21,8 +27,13 @@
 }
 @media all and (min-width: 768px) {
   .container__location-tags-host-rating {
-    margin: 30px 0 0;
     flex-direction: row;
+    margin: 20px 0 0;
+  }
+}
+@media all and (min-width: 1024px) {
+  .container__location-tags-host-rating {
+    margin: 30px 0 0;
   }
 }
 
@@ -41,6 +52,11 @@
 }
 @media all and (min-width: 768px) {
   .container__location-tags__location h2 {
+    font-size: 30px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .container__location-tags__location h2 {
     font-size: 36px;
   }
 }
@@ -50,6 +66,11 @@
   font-size: 14px;
 }
 @media all and (min-width: 768px) {
+  .container__location-tags__location h3 {
+    font-size: 16px;
+  }
+}
+@media all and (min-width: 1024px) {
   .container__location-tags__location h3 {
     font-size: 18px;
   }
@@ -62,6 +83,11 @@
   gap: 10px;
 }
 @media all and (min-width: 768px) {
+  .container__location-tags__tags {
+    margin: 15px 0 0;
+  }
+}
+@media all and (min-width: 1024px) {
   .container__location-tags__tags {
     margin: 20px 0 0;
   }
@@ -92,6 +118,11 @@
 @media all and (min-width: 768px) {
   .container__details {
     flex-direction: row;
+    margin: 15px 0;
+  }
+}
+@media all and (min-width: 1024px) {
+  .container__details {
     margin: 20px 0;
   }
 }
@@ -100,6 +131,11 @@
   width: 100%;
 }
 @media all and (min-width: 768px) {
+  .details__description {
+    width: 49%;
+  }
+}
+@media all and (min-width: 1024px) {
   .details__description {
     width: 47%;
   }

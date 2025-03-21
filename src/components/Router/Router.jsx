@@ -15,8 +15,8 @@ export default function Router() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
-           <Route path="/about" element={<About />} />
-             <Route path="/accomodation/:id" element={<Accomodation />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/accomodation/:id" element={<Accomodation />} />
             <Route path="*" element={<Error />} />
           </Routes>
         </main>

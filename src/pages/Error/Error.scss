@@ -1,4 +1,6 @@
-@import "../../variables.scss";
+@use "../../styles/utils/variables" as *;
+@use "../../styles/utils/mixins" as *;
+
 
 .container__error {
   display: flex;
@@ -6,49 +8,47 @@
   align-items: center;
   padding: 0 30px;
   h1 {
-    font-size: 288px;
     color: $primary-color;
     margin: 80px auto;
+    font-size: 96px;
 
-    @media (max-width: $breakpoint-mobile) {
-      font-size: 96px;
+    @include responsive-tablet {
+      font-size: 200px;
     }
-
-    @media (min-width: $breakpoint-mobile) and (max-width: $breakpoint-desktop){
-      font-size: 192px;
+    @include responsive-desktop {
+      font-size: 288px;
     }
   }
 
   h2 {
-    font-size: 36px;
     color: $primary-color;
     margin: 0 auto;
-    text-align:center;
+    text-align: center;
     font-weight: 500;
     line-height: 26px;
+    font-size: 18px;
 
-    @media (max-width: $breakpoint-mobile) {
-      font-size: 18px;
+    @include responsive-tablet {
+      font-size: 28px;
     }
-
-    @media (min-width: $breakpoint-mobile) and (max-width: $breakpoint-desktop){
-      font-size: 24px;
+    @include responsive-desktop {
+      font-size: 36px;
     }
   }
 
   &-link {
-    font-size: 18px;
     color: black;
     text-decoration: underline;
     text-align: center;
     margin: 120px auto 100px;
+    font-size: 14px;
 
-    @media (max-width: $breakpoint-mobile) {
-      font-size: 14px;
+    @include responsive-tablet {
+      font-size: 16px;
     }
 
-    @media (min-width: $breakpoint-mobile) and (max-width: $breakpoint-desktop){
-      font-size: 16px;
+    @include responsive-desktop {
+      font-size: 18px;
     }
   }
 }

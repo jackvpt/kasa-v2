@@ -16,6 +16,12 @@
 }
 @media all and (min-width: 768px) {
   .container__host__name {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .container__host__name {
     font-size: 18px;
     margin-right: 10px;
   }
@@ -33,11 +39,23 @@
 }
 @media all and (min-width: 768px) {
   .container__host__picture img {
+    width: 48px;
+    height: 48px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .container__host__picture img {
     width: 64px;
     height: 64px;
   }
 }
 @media all and (min-width: 768px) {
+  .container__host__picture {
+    width: 48px;
+    height: 48px;
+  }
+}
+@media all and (min-width: 1024px) {
   .container__host__picture {
     width: 64px;
     height: 64px;
