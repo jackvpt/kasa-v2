@@ -36,7 +36,7 @@
     width: 47%;
   }
 }
-@media all and (min-width: 1024px) {
+@media all and (min-width: 1280px) {
   .container__cards a {
     width: 31%;
   }
