@@ -33,6 +33,9 @@
   .container__error h2 {
     font-size: 28px;
   }
+  .container__error h2 .span__crlf_404 {
+    display: none;
+  }
 }
 @media all and (min-width: 1024px) {
   .container__error h2 {
