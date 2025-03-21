@@ -14,8 +14,14 @@
 @media all and (min-width: 768px) {
   .container__cards {
     background-color: #f6f6f6;
-    padding: 30px;
+    padding: 20px;
     flex-direction: row;
+    gap: 20px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .container__cards {
+    padding: 30px;
     gap: 30px;
   }
 }
@@ -27,11 +33,11 @@
 }
 @media all and (min-width: 768px) {
   .container__cards a {
-    width: 46%;
+    width: 47%;
   }
 }
 @media all and (min-width: 1024px) {
   .container__cards a {
-    width: 30%;
+    width: 31%;
   }
 }/*# sourceMappingURL=Home.css.map */

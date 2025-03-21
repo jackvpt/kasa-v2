@@ -5,19 +5,22 @@
   margin: 0 auto;
   background-color: white;
   padding: 0;
-
   border-radius: 25px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   flex-direction: column;
-
   row-gap: 20px;
 
   @include responsive-tablet {
     background-color: $primary-bg-color;
-    padding: 30px;
+    padding: 20px;
     flex-direction: row;
+    gap: 20px;
+  }
+
+  @include responsive-desktop {
+    padding: 30px;
     gap: 30px;
   }
 
@@ -27,11 +30,11 @@
     object-fit: cover;
 
     @include responsive-tablet {
-      width: 46%;
+      width: 47%;
     }
 
     @include responsive-desktop {
-      width: 30%;
+      width: 31%;
     }
   }
 }
